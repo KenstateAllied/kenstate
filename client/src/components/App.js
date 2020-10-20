@@ -82,7 +82,6 @@ class App extends Component {
             <Route exact path="/savedvin" component={SavedVin} />
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
-
             </Switch>
           </SharedLayout>
         </BrowserRouter>

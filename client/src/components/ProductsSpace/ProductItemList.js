@@ -99,7 +99,7 @@ class ProductItemList extends Component {
                 </span>
               </div>
               <p className="product-txt">
-                Nunc facilisis sagittis ullamcorper. Proin lectus ipsum
+                CARDOCS HAS THE BEST CAR PARTS
               </p>
               <a
                 className="ht-btn ht-btn-default"

@@ -56,8 +56,8 @@ export default function Home() {
       engineCylinders: vin[0].EngineCylinders,
       fuelInjection: vin[0].FuelInjectionType,
     })
-      // .then(res => loadVin())
-      .then(res => console.log('Saved to dbase'))
+      // .then(res => console.log('Saved to dbase'))
+      .then(res => alert("SAVED"))
       .catch(err => console.log(err));
   };
 
@@ -90,22 +90,22 @@ export default function Home() {
       </form>
       {vin.length ? (
         <div className="vinReturn">
-          <h2>Car VIN Details </h2>
+          <h2 style={{ color: 'white' }} className="f-weight-300">VIN Details </h2>
           <button onClick={() => saveVinSelection(vin)} variant="outline-success" className='ml-3' >Save</button>
-          <div> VIN: {vin[0].VIN} </div>
-          <div> Make: {vin[0].Make} </div>
-          <div> Model: {vin[0].Model} </div>
-          <div> Model Year: {vin[0].ModelYear} </div>
-          <div> Engine HP: {vin[0].EngineHP} </div>
-          <div> Engine Cylinders: {vin[0].EngineCylinders} </div>
-          <div> Displacement CC: {vin[0].DisplacementCC} </div>
-          <div> Fuel Injection Type: {vin[0].FuelInjectionType} </div>
-          <div> Drive Type: {vin[0].DriveType} </div>
-          <div> Doors: {vin[0].Doors} </div>
-          <div> Trim: {vin[0].Trim} </div>
+          <div style={{ color: 'white' }}> VIN: {vin[0].VIN} </div>
+          <div style={{ color: 'white' }}> Make: {vin[0].Make} </div>
+          <div style={{ color: 'white' }}> Model: {vin[0].Model} </div>
+          <div style={{ color: 'white' }}> Model Year: {vin[0].ModelYear} </div>
+          <div style={{ color: 'white' }}> Engine HP: {vin[0].EngineHP} </div>
+          <div style={{ color: 'white' }}> Engine Cylinders: {vin[0].EngineCylinders} </div>
+          <div style={{ color: 'white' }}> Displacement CC: {vin[0].DisplacementCC} </div>
+          <div style={{ color: 'white' }}> Fuel Injection Type: {vin[0].FuelInjectionType} </div>
+          <div style={{ color: 'white' }}> Drive Type: {vin[0].DriveType} </div>
+          <div style={{ color: 'white' }}> Doors: {vin[0].Doors} </div>
+          <div style={{ color: 'white' }}> Trim: {vin[0].Trim} </div>
         </div>
       ) : (
-          <h3>No Results to Display</h3>
+          <h3 style={{ color: 'red' }} >No Results to Display</h3>
         )}
     </div>
   );

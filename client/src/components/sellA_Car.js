@@ -53,7 +53,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>Upload Images</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-sm-4 col-md-4 col-lg-3 m-b-lg-20 text-left">
                                             <img src="images/b-img-1.jpg" alt=""/>
@@ -94,7 +94,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>Car Details </h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-sm-6 col-md-4 col-lg-4 m-b-lg-20">
                                             <div className="select-wrapper">
@@ -138,7 +138,7 @@ const  Sell = () => {
                                                         Model
                                                     </button>
                                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenu3">
-                                                        <li>Versa</li>
+                                                        <li>Lamborghini</li>
                                                         <li>Cruze</li>
                                                         <li>Malibu</li>
                                                         <li>Civic</li>
@@ -160,10 +160,10 @@ const  Sell = () => {
                                                         Year
                                                     </button>
                                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenu4">
-                                                        <li>2016</li>
-                                                        <li>2015</li>
-                                                        <li>2014</li>
-                                                        <li>2012</li>
+                                                        <li>2020</li>
+                                                        <li>2019</li>
+                                                        <li>2018</li>
+                                                        <li>2017</li>
                                                         <li>All</li>
                                                     </ul>
                                                 </div>
@@ -302,7 +302,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>Features & Options</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-lg-4 text-left">
                                             <div className="checkbox">
@@ -415,7 +415,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>TECHNICAL SPECIFICATIONS</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <div className="row">
                                         <div className="col-lg-4 text-left">
                                             <div className="checkbox">
@@ -430,7 +430,7 @@ const  Sell = () => {
                                     <div className="heading-1">
                                         <h3>Contact Details</h3>
                                     </div>
-                                    <p className="m-b-lg-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit et dolore magna aliqua</p>
+                                    <p className="m-b-lg-20"></p>
                                     <form>
                                         <div className="row">
                                             <div className="col-md-6 col-lg-6">

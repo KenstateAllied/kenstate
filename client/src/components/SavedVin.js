@@ -28,40 +28,42 @@ function Saved() {
 
   return (
     <div>
-      <h1>Saved VIN</h1>
-
+      <h4 class="col-md-6 col-md-offset-3" style={{ color: 'white' }}>Saved VIN</h4>
       {saved.length ? (
         saved.map(vin => (
-          <div size='sm-12' key={vin._id}>
-            <div className="mb-4 border  p-3 rounded shadow ">
-              <button onClick={() => deleteVin(vin._id)} />
+          <div class='row' key={vin._id}>
+            {/* <div className="mb-4 border  p-3 rounded shadow "> */}
+            <div class="col-md-6 col-md-offset-3">
+
+              <button onClick={() => deleteVin(vin._id)}> DELETE </button>
               <link to={"/api/vin" + vin.id} />
-              <strong className="m-4">
+              <strong className="m-4" style={{ color: 'white' }}>
                 VIN: {vin.vin}
               </strong>
-              <p className="mt-3">
+              <p className="mt-3" style={{ color: 'white' }}>
                 MAKE: {vin.make}
               </p>
-              <p className="mt-3" >
+              <p className="mt-3" style={{ color: 'white' }} >
                 MODEL: {vin.model}
               </p>
-              <p className="mt-3" >
+              <p className="mt-3" style={{ color: 'white' }}>
                 MODEL YEAR: {vin.modelYear}
               </p>
-              <p className="mt-3" >
+              <p className="mt-3" style={{ color: 'white' }}>
                 ENGINE MODEL: {vin.engineModel}
               </p>
-              <p className="mt-3" >
+              <p className="mt-3" style={{ color: 'white' }}>
                 ENGINE HP: {vin.engineHp}
               </p>
-              <p className="mt-3" >
+              <p className="mt-3" style={{ color: 'white' }}>
                 ENGINE CYCLINERS: {vin.engineCylinders}
               </p>
               <hr />
+
             </div>
           </div>
         ))) : (
-          <h3>No Saved VIN to Display</h3>
+          <h3 style={{ color: 'white' }}>No Saved VIN to Display</h3>
         )};
     </div>
   );
