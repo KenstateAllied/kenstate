@@ -11,20 +11,26 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: true }));
 
+const port = process.env.PORT || 5000;
 // DB Config
-const db = require("./config/keys").mongoURI;
+// const db = require("./config/keys").mongoURI;
 
-// Connect to MongoDB
-mongoose.connect(db, {
+// // Connect to MongoDB
+// mongoose.connect(db, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useCreateIndex: true,
+//   useFindAndModify: false
+// })
+//   .then(() => console.log("MongoDB successfully connected"))
+//   .catch(err => console.log(err));
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/cardoc", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
   useFindAndModify: false
-})
-  .then(() => console.log("MongoDB successfully connected"))
-  .catch(err => console.log(err));
-
-const port = process.env.PORT || 5000;
+});
 
 // Express will serve up production assets
 if (process.env.NODE_ENV === 'production') {
