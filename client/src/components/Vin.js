@@ -89,12 +89,11 @@ export default function Home() {
        </button>
       </form>
       {vin.length ? (
-        <div className="vinReturn">
+        <div className="vinReturn" class="col-md-6 col-md-offset-3">
           <h2 style={{ color: 'white' }} className="f-weight-300">VIN Details </h2>
           <button onClick={() => saveVinSelection(vin)} variant="outline-success" className='ml-3' >Save</button>
           <div style={{ color: 'white' }}> VIN: {vin[0].VIN} </div>
-          <div style={{ color: 'white' }}> Make: {vin[0].Make} </div>
-          <div style={{ color: 'white' }}> Model: {vin[0].Model} </div>
+          <div style={{ color: 'white' }}> Make: {vin[0].Make} || Model: {vin[0].Model} </div>
           <div style={{ color: 'white' }}> Model Year: {vin[0].ModelYear} </div>
           <div style={{ color: 'white' }}> Engine HP: {vin[0].EngineHP} </div>
           <div style={{ color: 'white' }}> Engine Cylinders: {vin[0].EngineCylinders} </div>

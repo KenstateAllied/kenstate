@@ -35,7 +35,7 @@ class CarDetails extends React.Component {
 						<section className="m-t-lg-30 m-t-xs-0">
 							<div className="product_detail no-bg p-lg-0">
 								<h3 className="product-name color1-f">{name} / 
-									<span className="product-price color-red">${price}000.00 <i className="color-9 color1-9"> ( Plus Taxes & Licensing ) </i></span>
+									<span className="product-price color-red">${price}.00 <i className="color-9 color1-9"> ( Plus Taxes & Licensing ) </i></span>
 									<span className="car-status m-l-lg-10">{condition !==undefined ? condition.toUpperCase() : ''}</span>
 								</h3>
 								<div className="row">
@@ -72,8 +72,8 @@ class CarDetails extends React.Component {
 									</div>
 									<div className="col-md-5 col-lg-4">
 										<ul className="product_para-1 p-lg-15 bg-gray-f5 bg1-gray-15">
-											<li><span>Make :</span>Nissan</li>
-											<li><span>Model :</span>Civic</li>
+											<li><span>Make :</span>BMW</li>
+											<li><span>Model :</span>3 Series</li>
 											<li><span>Body :</span>Sedan</li>
 											<li><span>Fuel :</span>Mileage</li>
 											<li><span>Engine :</span>3.4L Mid-Engine V6</li>
@@ -92,8 +92,7 @@ class CarDetails extends React.Component {
 										<div className="heading-1"><h3>Overview</h3></div>
 											<div className="m-b-lg-30 bg-gray-fa bg1-gray-2 p-lg-30 p-xs-15">
 											<p className="color1-9">
-												Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. 
-											</p>
+											Excellent condition and great car. </p>
 										</div>
 									</div>
 									<div className="m-b-lg-30">
@@ -123,8 +122,8 @@ class CarDetails extends React.Component {
 										<div className="bg-gray-fa bg1-gray-2 p-lg-30 p-xs-15">
 											<div className="heading-1"><h3 className="f-18">Engine</h3></div>
 											<ul className="product_para-1">
-												<li><span>Layout / number of cylinders :</span>Nissan</li>
-												<li><span>Displacement :</span>Civic</li>
+												<li><span>Layout / number of cylinders :</span>4</li>
+												<li><span>Displacement :</span> </li>
 												<li><span>Engine Layout :</span>Sedan</li>
 												<li><span>Horespower :</span>Mileage</li>
 												<li><span>@ rpm :</span>3.4L Mid-Engine V6</li>
@@ -133,7 +132,7 @@ class CarDetails extends React.Component {
 											</ul>
 											<div className="heading-1 m-t-lg-20"><h3 className="f-18">Performance</h3></div>
 											<ul className="product_para-1">
-												<li><span>Top Track Speed :</span>Nissan</li>
+												<li><span>Top Track Speed :</span></li>
 												<li><span>0 - 60 mph :</span>Civic</li>
 											</ul>
 											<div className="heading-1 m-t-lg-20"><h3 className="f-18">Transmission</h3></div>
@@ -142,16 +141,16 @@ class CarDetails extends React.Component {
 											</ul>
 											<div className="heading-1 m-t-lg-20"><h3 className="f-18">Fuel consumption</h3></div>
 											<ul className="product_para-1">
-												<li><span>City (estimate) :</span>Nissan</li>
-												<li><span>Highway (estimate) :</span>Civic</li>
+												<li><span>City (estimate) :</span>18</li>
+												<li><span>Highway (estimate) :</span>28</li>
 											</ul>
 											<div className="heading-1 m-t-lg-20"><h3 className="f-18">Body</h3></div>
 											<ul className="product_para-1">
-												<li><span>Length :</span>Nissan</li>
-												<li><span>Width :</span>Civic</li>
-												<li><span>Height :</span>Sedan</li>
-												<li><span>Wheelbase :</span>Mileage</li>
-												<li><span>Maximum payload :</span>3.4L Mid-Engine V6</li>
+												<li><span>Length :</span></li>
+												<li><span>Width :</span></li>
+												<li><span>Height :</span></li>
+												<li><span>Wheelbase :</span></li>
+												<li><span>Maximum payload :</span></li>
 											</ul>
 										</div>
 									</div>
@@ -163,13 +162,13 @@ class CarDetails extends React.Component {
 									<a href="" className="bg-gray-fa bg1-gray-2 p-lg-15 text-center m-b-lg-20 display-block">
 										<img src="../images/logo_w.png" alt=""/>
 									</a>
-									<h4 className="p-t-lg-0"><a href="">UK car supermarket</a></h4>
+									<h4 className="p-t-lg-0"><a href="">BROOKLYN CARS</a></h4>
 									<div className="clearfix"></div>
 									<ul className="list-default m-t-lg-0">
-										<li><i className="fa fa-user-circle-o m-r-lg-10  icon"></i>Mr. Janhn</li>
+										<li><i className="fa fa-user-circle-o m-r-lg-10  icon"></i>Mr. Car</li>
 										<li><i className="fa fa-phone m-r-lg-10 icon"></i>0123-456-789</li>
 										<li><i className="fa fa-envelope-o m-r-lg-10 icon"></i>Sale@cardealer.com</li>
-										<li><i className="fa fa-home m-r-lg-10 icon"></i>123 Holding, Busan, Korea</li>
+										<li><i className="fa fa-home m-r-lg-10 icon"></i>Brooklyn, NY</li>
 										<li className="view-map"><i className="fa fa-map-marker m-r-lg-10 icon"></i>Click to view Map</li>
 										<li><a href="http://www.autotrader.com/"><i className="fa fa-globe m-r-lg-10 icon"></i>http://www.autotrader.com</a></li>
 									</ul>

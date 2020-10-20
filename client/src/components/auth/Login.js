@@ -53,13 +53,13 @@ class Login extends Component {
         const { errors } = this.state;
 
         return (
-            <div className="container">
+            <div className="container" >
                 <div style={{ marginTop: "4rem" }} className="row">
-                    <div className="col s8 offset-s2">
-                        <div className="col s12" style={{ paddingLeft: "11.250px" }}>
-                            <h4><b>Please Login</b> below</h4>
-                            <p className="grey-text text-darken-1">
-                                Don't have an account? <Link to="/register">Register</Link>
+                    <div class="col-md-6 col-md-offset-3">
+                        <div className="col s12" style={{ paddingLeft: "11px" }}>
+                            <h4 style={{ color: 'white' }}>Please Login below</h4>
+                            <p style={{ color: 'white' }}>
+                                Don't have an account? <Link to="/register" style={{ color: 'white' }}>Register</Link>
                             </p>
                         </div>
                         <form noValidate onSubmit={this.onSubmit}>
@@ -74,7 +74,7 @@ class Login extends Component {
                                         invalid: errors.email || errors.emailnotfound
                                     })}
                                 />
-                                <label htmlFor="email">Email</label>
+                                <label htmlFor="email" style={{ color: 'white' }}>Email</label>
                                 <span className="red-text">
                                     {errors.email}
                                     {errors.emailnotfound}
@@ -91,7 +91,7 @@ class Login extends Component {
                                         invalid: errors.password || errors.passwordincorrect
                                     })}
                                 />
-                                <label htmlFor="password">Password</label>
+                                <label htmlFor="password" style={{ color: 'white' }}>Password</label>
                                 <span className="red-text">
                                     {errors.password}
                                     {errors.passwordincorrect}

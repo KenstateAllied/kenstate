@@ -73,5 +73,4 @@ When contributing to this repository, please first discuss the change you wish t
 
 # Questions
 Please email me ↓ for any questions
-* [Mansa-MD](mailto:mory.d192@gmail.com?subject=[GitHub]%20Good%20ReadMe%20Generator)
 

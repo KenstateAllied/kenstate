@@ -207,7 +207,7 @@ class Home extends Component{
                 <h3 className="f-weight-300">
                     Start Selling With <strong>Car Docs</strong> Now!
                 </h3>
-                <a className="ht-btn ht-btn-default">
+                <a className="ht-btn ht-btn-default" href="/sellacar">
                     Click to sell your car
                 </a>
                 </div>   
