@@ -1,11 +1,4 @@
 /*
-Project Name: CarShop
-File: Style.css - Main css
-Version: 1.0
-Date: 04/12/2016
-Author Name: Nguyen Duy Khiem
-Author URI: https://themeforest.net/user/t3theme
-Email:ndktheme@gmail.com
 
 ------------------------
 NOTE:
@@ -54,12 +47,12 @@ Table of Contents
 	38.Color
 	39.Media query
 --------------------------*/
-@import url('http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700');
+/* @import url('http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700'); */
 /*--- 01. Reset ---*/
 *{
-	font-size:15px;
-	line-height:1.5;
-	font-family:Roboto, sans-serif;
+	font-size:12.5px;
+	line-height:2;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 button,a,a:hover, a:active, a:focus, a:visited{
 	text-decoration:none;
@@ -134,7 +127,7 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
 }
 /*--- 02. Logo ---*/
 .logo img{
-	margin-top:62px;
+	margin-top:42px;
 }
 /*--- 03. Top-header ---*/
 .top-header{
