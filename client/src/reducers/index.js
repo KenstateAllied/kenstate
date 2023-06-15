@@ -7,7 +7,10 @@ import pathReducer from "./pathReducer";
 import selectedProductReducer from "./currentProdReducer";
 import basketproductsReducer from "./basketReducer";
 import carsReducer from "./carsReducer";
-import whishListReducer from "./whishListReducer";
+
+import wishListReducer from "./wishListReducer";
+
+//import wishListReducer from "./wishListReducer";
 import selectedCarReducer from "./currentCarReducer";
 import fetchedCarsReducer from "./fetchedCarsReducer";
 import filteractivationReducer from "./filterReducer";
@@ -21,7 +24,7 @@ export default combineReducers({
   selectedCar: selectedCarReducer,
   basketproducts: basketproductsReducer,
   cars: carsReducer,
-  whishlistproducts: whishListReducer,
+  wishlistproducts: wishListReducer,
   fetchedCars: fetchedCarsReducer,
   homefilterActivated: filteractivationReducer
 });

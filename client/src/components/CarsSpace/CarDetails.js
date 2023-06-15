@@ -35,7 +35,7 @@ class CarDetails extends React.Component {
 						<section className="m-t-lg-30 m-t-xs-0">
 							<div className="product_detail no-bg p-lg-0">
 								<h3 className="product-name color1-f">{name} / 
-									<span className="product-price color-red">${price}.00 <i className="color-9 color1-9"> ( Plus Taxes & Licensing ) </i></span>
+									<span className="product-color-red">${price}.00 <i className="color-9 color1-9"> ( Plus Taxes & Licensing ) </i></span>
 									<span className="car-status m-l-lg-10">{condition !==undefined ? condition.toUpperCase() : ''}</span>
 								</h3>
 								<div className="row">
@@ -162,15 +162,15 @@ class CarDetails extends React.Component {
 									<a href="" className="bg-gray-fa bg1-gray-2 p-lg-15 text-center m-b-lg-20 display-block">
 										<img src="../images/logo_w.png" alt=""/>
 									</a>
-									<h4 className="p-t-lg-0"><a href="">BROOKLYN CARS</a></h4>
+									<h4 className="p-t-lg-0"><a href="">KENSTATE DEALERS</a></h4>
 									<div className="clearfix"></div>
 									<ul className="list-default m-t-lg-0">
-										<li><i className="fa fa-user-circle-o m-r-lg-10  icon"></i>Mr. Car</li>
-										<li><i className="fa fa-phone m-r-lg-10 icon"></i>0123-456-789</li>
-										<li><i className="fa fa-envelope-o m-r-lg-10 icon"></i>Sale@cardealer.com</li>
-										<li><i className="fa fa-home m-r-lg-10 icon"></i>Brooklyn, NY</li>
-										<li className="view-map"><i className="fa fa-map-marker m-r-lg-10 icon"></i>Click to view Map</li>
-										<li><a href="http://www.autotrader.com/"><i className="fa fa-globe m-r-lg-10 icon"></i>http://www.autotrader.com</a></li>
+										<li><i className="fa fa-user-circle-o m-r-lg-10  icon"></i>DIRECTOR</li>
+										<li><i className="fa fa-phone m-r-lg-10 icon"></i>+254 724 052 417</li>
+										<li><i className="fa fa-envelope-o m-r-lg-10 icon"></i>kenstatellc@gmail.com.com</li>
+										<li><i className="fa fa-home m-r-lg-10 icon"></i>ELDORET, KENYA</li>
+										<li className="view-map"><i className="fa fa-map-marker m-r-lg-10 icon"></i>Call for details</li>
+										<li><a href="http://www.kenstate-web.netlify.app/"><i className="fa fa-globe m-r-lg-10 icon"></i>"http://www.kenstate-web.netlify.app</a></li>
 									</ul>
 									<div className="m-t-lg-30">
 										<div className="heading-1">

@@ -1,4 +1,5 @@
-import { SELECTED_PRODUCT } from '../actions/types';
+import {SELECTED_PRODUCT } from '../actions/types';
+//import { SELECTED_PRODUCT } from '../actions/types';
 
 export default function(state = [], action) {
   

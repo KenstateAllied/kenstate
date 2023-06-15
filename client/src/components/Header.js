@@ -16,7 +16,7 @@ class Header extends Component {
                                 <p className="f-14">
                                 <Link to={"/"}>
                                     <i className="fa fa-map-marker m-r-lg-5" />
-                                    <strong>Car Doc's</strong> -Brooklyn, USA
+                                    <strong>KENSTATE</strong> -ELDORET, KENYA
                                 </Link>
                         </p>
                             </div>
@@ -49,9 +49,9 @@ class Header extends Component {
                                         </a>
                                     </li>
                                     <li className="cart-icon">
-                                        <Link to={"/whishlist"}>
+                                        <Link to={"/wishlist"}>
                                             <i className="fa fa-heart" />
-                                            <span className="badge">{this.props.whishlistproducts.length}</span>
+                                            <span className="badge">{this.props.wishlistproducts.length}</span>
                                         </Link>
                                     </li>
                                     <Basket />
@@ -66,14 +66,14 @@ class Header extends Component {
                         <div className="row">
                             <div className="col-md-3 col-lg-3">
                                 <a className="logo">
-                                    <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" />
+                                    <img src={`${process.env.PUBLIC_URL}/images/premio240.jpg`} alt="logo" />
                                 </a>
                             </div>
                             <div className="col-md-9 col-lg-9">
                                 <div className="hotline">
                                     <span className="m-r-lg-10">Need support? Call us:</span>
-                                    <a href="800-Car-Docs">
-                                        <i className="fa fa-phone" />800-Car-Docs
+                                    <a href="+254 724 052 417">
+                                        <i className="fa fa-phone" />+254 724 052 417
                         </a>
                                 </div>
                                 <div className="clearfix" />
@@ -107,7 +107,7 @@ class Header extends Component {
                                                         </li>
                                                         <li className="dropdown" onClick={() => this.props.turnOffHomefilter()}>
                                                             <Link to={"/cars"} className="dropdown-toggle">
-                                                                CARS LISTING
+                                                                CARS LISTINGS
                                         </Link>
                                                         </li>
                                                         <li className="dropdown">
@@ -117,7 +117,7 @@ class Header extends Component {
                                                         </li>
                                                         <li className="dropdown">
                                                             <Link to={"/sellacar"} className="dropdown-toggle">
-                                                                Sell A Car
+                                                                Sell Your Car
                                         </Link>
                                                         </li>
                                                     </ul>
@@ -153,8 +153,8 @@ class Header extends Component {
         );
     }
 };
-function mapStateToProps({ whishlistproducts }) {
-    return { whishlistproducts };
+function mapStateToProps({ wishlistproducts }) {
+    return { wishlistproducts };
 }
 
 export default connect(mapStateToProps, { turnOffHomefilter })(Header);

@@ -9,25 +9,24 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-xs-12 col-sm-4 col-md-4">
                     <div className="heading-1">
-                        <h3>Company Info</h3>
                     </div>
                     <p>
                         
                     </p>
                     <ul className="list-default">
                         <li>
-                        <i className="fa fa-signal" />Brooklyn, NY, USA
+                        <i className="fa fa-signal" />ELDORET, KENYA
                         </li>
                         <li>
                         <a href="tel:01686813774">
-                            <i className="fa fa-phone" />800-Car-Docs
+                            <i className="fa fa-phone" />+254 724-052-417
                         </a>
                         </li>
                         <li>
-                        <i className="fa fa-envelope-o" />Support@cardocs.com
+                        <i className="fa fa-envelope-o" />kenstatellc@gmail.com
                         </li>
                         <li>
-                        <i className="fa fa-globe" />http://www.cardocs.com
+                        <i className="fa fa-globe" />http://www.kenstate-web.netlify.app
                         </li>
                     </ul>
                     </div>
@@ -56,7 +55,7 @@ const Footer = () => {
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-4">
                     <div className="heading-1">
-                        <h3>Quick Link</h3>
+                        <h3>Quick Links</h3>
                     </div>
                     <ul className="list-default">
                         <li>
@@ -96,8 +95,8 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-6">
                     <p>
-                        © 2020 Designed by{" "}
-                        <a href="https://themeforest.net/user/t3theme">3 x 3</a>.
+                        © 2023 Designed by{" "}
+                        <a href="www.kenstate-web.netlify.app">KENSTATE ALLIED</a>.
                         All rights reserved
                     </p>
                     </div>

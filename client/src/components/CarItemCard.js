@@ -79,7 +79,7 @@ class CarItemCard extends Component{
                     </li>
                      
                     <li onMouseEnter={this.mouseHover.bind(this)} onMouseLeave={this.mouseUnHover.bind(this)}>
-                            <i id={JSON.stringify(car)} className={this.state.isInWishList ? "fa fa-heart" : "fa fa-heart-o"} 
+                            <i id={JSON.stringify(car)} className={this.state.isInWISHLIST ? "fa fa-heart" : "fa fa-heart-o"} 
                             style={heartStyle} 
                             onClick={this.ToggleCarWishlist.bind(this)}      
                             />WishList
@@ -98,9 +98,9 @@ class CarItemCard extends Component{
 
 
 
-function mapStateToProps({ wishlistproducts }) {
-    return { wishlistproducts };
+function mapStateToProps({ WISHLISTproducts }) {
+    return { WISHLISTproducts };
 }
 
 
-export default connect(mapStateToProps,{ fetchSingleCar, addToWishList, removeFromWishList})(CarItemCard) ;
+export default connect(mapStateToProps,{ fetchSingleCar, addToWISHLIST, removeFromWISHLIST})(CarItemCard) ;

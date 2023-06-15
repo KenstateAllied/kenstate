@@ -1,5 +1,7 @@
 import { FETCH_CARS } from '../actions/types';
 
+//import { FETCH_CARS } from '../actions/types';
+
 export default function(state = [], action) {
   switch (action.type) {
     case FETCH_CARS:

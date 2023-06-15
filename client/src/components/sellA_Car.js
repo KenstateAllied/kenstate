@@ -492,9 +492,9 @@ const  Sell = () => {
                         <div className="col-md-3">
                             <div className="m-t-xs-30">
                                 <div className="heading-1">
-                                    <h3>Trouble Uploading?</h3>
+                                    <h3>Give us a call </h3>
                                 </div>
-                                <p> 🏎 Contact Us ＠ 800-Car-Docs 🏎</p>
+                                <p> 🏎 WHATSAPP ＠+254 777 052 417 🏎</p>
                                 
                             </div>
                         </div>

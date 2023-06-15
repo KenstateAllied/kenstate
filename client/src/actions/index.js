@@ -7,8 +7,8 @@ import {
   FETCH_CARS,
   FETCH_SINGLE_CAR,
   BASKET_EDIT_ITEM,
-  WHISHLIST_ADD_PRODUCT,
-  WHISHLIST_REMOVE_PRODUCT,
+  WISHLIST_ADD_PRODUCT,
+  WISHLIST_REMOVE_PRODUCT,
   SELECTED_PRODUCT,
   SELECTED_CAR,
   FILTER_ACTIVATION
@@ -61,16 +61,16 @@ export function changeBasketItem(product, quantity) {
   };
 }
 
-export function addToWhishList(product) {
+export function addToWishList(product) {
   return {
-    type: WHISHLIST_ADD_PRODUCT,
+    type: WISHLIST_ADD_PRODUCT,
     payload: product
   };
 }
 
-export function removeFromWhishList(product) {
+export function removeFromWishList(product) {
   return {
-    type: WHISHLIST_REMOVE_PRODUCT,
+    type: WISHLIST_REMOVE_PRODUCT,
     payload: product
   };
 }

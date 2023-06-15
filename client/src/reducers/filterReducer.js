@@ -1,4 +1,5 @@
-import { FILTER_ACTIVATION } from '../actions/types';
+import { FILTER_ACTIVATION } from "../actions/types";
+//import { FILTER_ACTIVATION } from '../actions/types';
 
 export default function(state = false, action) {
   switch (action.type) {
