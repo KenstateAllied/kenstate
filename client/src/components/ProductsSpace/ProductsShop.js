@@ -11,12 +11,12 @@ class ProductsShop extends Component{
     constructor(props){
         super(props);
         this.state={
-          activePage:'TYRES&WHEELS',
+          activePage:'Engine Parts',
         }
     }
 
     componentDidMount() {
-        this.props.fetchProducts('TYRES&WHEELS');
+        this.props.fetchProducts('Engine Parts');
     }
 
     renderFiltredProducts(activePage){
@@ -41,21 +41,21 @@ class ProductsShop extends Component{
                                     </div>
                                     <ul className="collapse in" id="collapseExample">
                                        
-                                        <li className={this.state.activePage === 'TYRES&WHEELS' ? 'active' : ''}><a onClick={()=>this.renderFiltredProducts('TYRES&WHEELS')} >Tyres & Wheels<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li  className={this.state.activePage === 'BRAKES&DISCS' ? 'active' : ''}><a onClick={()=>this.renderFiltredProducts('BRAKES&DISCS')} >Brakes discs<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li><a >Exhaust tips<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li><a  >Car covers<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li><a  >Seat covers<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li><a  >Mirrors<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li><a  >Bumpers<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li><a  >Floor mats<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li><a  >Calipers<i className="fa fa-chevron-right pull-right"></i></a></li>
-                                        <li><a  >Hand brakes<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li className={this.state.activePage === 'Engine Parts' ? 'active' : ''}><a onClick={()=>this.renderFiltredProducts('Engine Parts')} > Engine Parts<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li  className={this.state.activePage === 'Tractor Parts' ? 'active' : ''}><a onClick={()=>this.renderFiltredProducts('Tractor Parts')} >Tractor Parts<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li><a >Car Implement Parts<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li><a  >Electronics<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li><a  >Lorry Parts<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li><a  >ExJapan body Parts<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li><a  >Hydraulics<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li><a  >Bearings<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li><a  >Electricals<i className="fa fa-chevron-right pull-right"></i></a></li>
+                                        <li><a  >Tyres & Lubes<i className="fa fa-chevron-right pull-right"></i></a></li>
                                     </ul>
                                 </div>
                                 <div className="banner-item banner-bg-4 banner-1x color-inher">
-                                    <h3 className="f-weight-300"><strong>Tire Rack</strong></h3>
-                                    <p>Great Tires and Affordable Prices</p>
+                                    <h3 className="f-weight-300"><strong>Tyres Rack</strong></h3>
+                                    <p>Affordable Prices call us</p>
                                     <a className="ht-btn ht-btn-default">Shop now</a>
                                     
                                     
@@ -65,7 +65,7 @@ class ProductsShop extends Component{
                             </div>
                             <BrowserRouter>
                                     <div>
-                                    <Route exact path="/products" render={()=><ProductsContainer productsCategory={this.state.activePage} productsList={this.props.products}/>} />
+                                    <Route exact path="/products" render={()=><ProductsContainer products={this.state.activePage} productsList={this.props.products}/>} />
                                     <Route exact path="/products/singlproduct" component={ProductDetails} />
                                     </div>
                             </BrowserRouter>

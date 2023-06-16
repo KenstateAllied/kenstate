@@ -39,7 +39,7 @@ const productSchema = new Schema({
         wheelBase: Number,
         maximumPayload: Number
     },
-    _category: { type: Schema.Types.ObjectId, ref: 'Category' }
+    _category: { type: Schema.Types.ObjectId, ref: '' }
 });
 
 mongoose.model('products', productSchema);

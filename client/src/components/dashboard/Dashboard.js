@@ -20,7 +20,7 @@ class Dashboard extends Component {
                 <div className="row">
                     <div className="landing-copy col s12 center-align">
                         <h4 style={{ color: 'white' }}>
-                            {user.name}  - Welcome to CARDOC</h4>
+                            {user.name}  - Welcome to KENSTATE</h4>
                         <button
                             style={{
                                 width: "80px",

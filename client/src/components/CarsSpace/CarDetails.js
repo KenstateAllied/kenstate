@@ -76,10 +76,10 @@ class CarDetails extends React.Component {
 											<li><span>Model :</span>3 Series</li>
 											<li><span>Body :</span>Sedan</li>
 											<li><span>Fuel :</span>Mileage</li>
-											<li><span>Engine :</span>3.4L Mid-Engine V6</li>
+											<li><span>Engine CC:</span>3.4L Mid-Engine V6</li>
 											<li><span>Transmision :</span>Automatic</li>
 											<li><span>Color :</span>Gray</li>
-											<li><span>Door :</span>2</li>
+											<li><span>Doors :</span>2</li>
 											<li><span>Mileage :</span>1,000 Miles</li>
 											<li><span>Warranty :</span>2 years</li>
 										</ul>
@@ -99,21 +99,19 @@ class CarDetails extends React.Component {
 										<div className="heading-1"><h3>Features & Options</h3></div>
 										<div className="bg-gray-fa bg1-gray-2 p-lg-30 p-xs-15">
 											<ul className="list-feature">
-												<li><i className="fa fa-check"></i>Auxiliary heating</li>
+											<li><i className="fa fa-check"></i>Central locking</li>
 												<li><i className="fa fa-check"></i>Head-up display</li>
 												<li><i className="fa fa-check"></i>Alloy wheels</li>
 												<li><i className="fa fa-check"></i>MP3 interface</li>
 												<li><i className="fa fa-check"></i>Bluetooth</li>
-												<li><i className="fa fa-check"></i>MP3 interface</li>
 												<li><i className="fa fa-check"></i>Electric side mirror</li>
-												<li><i className="fa fa-check"></i>Navigation system</li>
 												<li><i className="fa fa-check"></i>CD player</li>
 												<li><i className="fa fa-check"></i>Navigation system</li>
 												<li><i className="fa fa-check"></i>Sports package</li>
 												<li><i className="fa fa-check"></i>Panoramic roof</li>
-												<li><i className="fa fa-check"></i>Central locking</li>
 												<li><i className="fa fa-check"></i>Sports suspension</li>
 												<li><i className="fa fa-check"></i>Parking sensors</li>
+												<li><i className="fa fa-check"></i>Auxiliary heating</li>
 											</ul>
 										</div>
 									</div>

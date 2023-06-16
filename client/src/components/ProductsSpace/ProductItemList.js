@@ -99,7 +99,7 @@ class ProductItemList extends Component {
                 </span>
               </div>
               <p className="product-txt">
-                KENSTATE LISTS THE BEST S ON CARS & PARTS
+                KENSTATE LISTS THE BEST ON CARS & PARTS
               </p>
               <a
                 className="ht-btn ht-btn-default"
@@ -127,7 +127,7 @@ class ProductItemList extends Component {
                   />
                 </li>
                 <li onClick={()=>this.props.fetchSingleProduct(product)}>
-                  <Link to={`/products/singlproduct`}>
+                  <Link to={`/products/singleproduct`}>
                     <i className="fa fa-search" />
                   </Link>
                 </li>

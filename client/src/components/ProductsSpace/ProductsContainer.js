@@ -29,7 +29,7 @@ class ProductsContainer extends React.Component{
         return <div className="col-sm-8 col-md-9 col-lg-9">
             <div className="product product-grid">
               <div className="heading heading-2 m-b-lg-0">
-                <h3 className="p-l-lg-20">{this.props.productsCategory}</h3>
+                <h3 className="p-l-lg-20">{this.props.products}</h3>
               </div>
               <div className="product-filter p-t-xs-20 p-l-xs-20">
                 <div className="m-b-xs-10 pull-left">

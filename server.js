@@ -52,5 +52,3 @@ app.use(require("./routes/vin"));
 
 require('./routes/productsRoutes')(app);
 require('./routes/carsRoutes')(app);
-
-app.listen(PORT, () => console.log(`The server has started on http://localhost:${PORT}`));
