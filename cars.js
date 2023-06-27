@@ -17,7 +17,7 @@ module.exports = [
         name: 'ISUZU',
         rating: '3',
         price: '2200000',
-        imageName: 'dmax.jpg',
+        imageName: 'dmax1.jpg',
         condition: 'used',
         body: 'truck',
         make: 'Dmax',
